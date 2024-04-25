@@ -1,45 +1,37 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Dia Ahuja
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+TODO: The score for my first model was 1.84007. It did not give any errors. However the score was very low.
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+TODO: My model2 pefomed the best ranked with a score of 1.68645.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
-
+TODO:  I changed the datetime column with object dtype into datetime dtype.
+I divided the datetime in month, day, year and hour.
+I also converted informative season and weather data into categorical type.
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+TODO: by adding the additional features, the training of model became more efficient and the score improved from 1.84007 to 1.68645
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: Add your explanation
+TODO: I tried tuning the hyperparameters - num_trials, scheduler and searcher. However the score didnt change by much,
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+TODO: I will spend more tine to hyperparameter tuning as there are many more ways in which I can improve my model and would like to explore those.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
-|--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+model	hpo1	hpo2	hpo3	score
+0	model1	default	default	default	1.84007
+1	model2	default	default	default	1.68645
+2	model3	gbm	nn	gbm+nn	1.85872
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
-
-![model_train_score.png](img/model_train_score.png)
-
-### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
-
-![model_test_score.png](img/model_test_score.png)
+TODO: ![alt text](image-2.png)
 
 ## Summary
-TODO: Add your explanation
+TODO: Through this, I applied the concepts that were covered in the unit and improved the scores for the model one by one by tuning  hyperparameters. Overall,this was a fun project and learned a lot by it.
