@@ -3,7 +3,7 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: The score for my first model was 1.84007. It did not give any errors. However the score was very low.
+TODO: The score for my first model was 1.84007. It did not give any errors. However the score was low.
 
 ### What was the top ranked model that performed?
 TODO: My model2 pefomed the best ranked with a score of 1.68645.
@@ -13,15 +13,16 @@ TODO: My model2 pefomed the best ranked with a score of 1.68645.
 TODO:  I changed the datetime column with object dtype into datetime dtype.
 I divided the datetime in month, day, year and hour.
 I also converted informative season and weather data into categorical type.
+
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: by adding the additional features, the training of model became more efficient and the score improved from 1.84007 to 1.68645
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: I tried tuning the hyperparameters - num_trials, scheduler and searcher. However the score didnt change by much,
+TODO: I tried tuning the hyperparameters - num_trials, scheduler and searcher. However the score didnt change by much.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: I will spend more tine to hyperparameter tuning as there are many more ways in which I can improve my model and would like to explore those.
+TODO: I will spend more time to hyperparameter tuning as there are many more ways in which I can improve my model and would like to explore those.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 model	hpo1	hpo2	hpo3	score
@@ -31,7 +32,7 @@ model	hpo1	hpo2	hpo3	score
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: ![alt text](image-2.png)
+TODO: The image is in a seperate file named "report-image"
 
 ## Summary
-TODO: Through this, I applied the concepts that were covered in the unit and improved the scores for the model one by one by tuning  hyperparameters. Overall,this was a fun project and learned a lot by it.
+TODO: Through this, I applied the concepts that were covered in the unit and improved the scores for the model one by one. Overall,this was a fun project and learned a lot by it.
