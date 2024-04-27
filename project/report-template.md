@@ -25,9 +25,11 @@ TODO: I tried tuning the hyperparameters - num_trials, scheduler and searcher. H
 TODO: I will spend more time to hyperparameter tuning as there are many more ways in which I can improve my model and would like to explore those.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
+
 I have provided the table as an image(as suggested in the project review) in a seperate file named "report-table"
 
 **###Create a line plot showing the top model score for the three (or more) training runs during the project.**
+
 The image is in a seperate file named "report-image2"
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
