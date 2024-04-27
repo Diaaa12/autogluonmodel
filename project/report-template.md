@@ -3,10 +3,10 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: The score for my first model was 1.84007. It did not give any errors. However the score was low.
+TODO: The score for my first model was 1.84007. It did not give any errors. potential errors could be due to having negative values in the predictions. I removed the negatives and it was successful. However the score was low.
 
 ### What was the top ranked model that performed?
-TODO: My model2 pefomed the best ranked with a score of 1.68645.
+TODO: The model WeightedEnsemble_L3 perfomed the best ranked with a score of 2.257957.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
